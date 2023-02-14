@@ -51,4 +51,4 @@ SET TWO CONTAINED
 gradlew_transformedOnce_transformedTwice
 ```
 The `FileCollection` provider passed to `addAllLater()` has been evaluated eagerly and thus
-the second file and its transformations have been missed.
+the transformations of the second file have been missed.
